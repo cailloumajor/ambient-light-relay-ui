@@ -58,9 +58,6 @@ module.exports = {
   },
 
   env: {
-    browser: true,
-    amd: true,
-    node: true,
     "vue/setup-compiler-macros": true,
   },
 }
