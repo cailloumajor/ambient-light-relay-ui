@@ -22,6 +22,8 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
+		"bradlc.vscode-tailwindcss",
+		"csstools.postcss",
 		"dbaeumer.vscode-eslint",
 		"editorconfig.editorconfig",
 		"esbenp.prettier-vscode",
