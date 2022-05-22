@@ -224,11 +224,6 @@
     "@unocss/core" "0.34.0"
     unconfig "^0.3.4"
 
-"@unocss/core@0.33.5":
-  version "0.33.5"
-  resolved "https://registry.yarnpkg.com/@unocss/core/-/core-0.33.5.tgz#1ad42f26707cd85dff2745a786676e5af000940a"
-  integrity sha512-VN3XMYM0kCIC8Z07P3/gDm9aZtkXBMaA3BG+C8PhdKhDTGTbFneprXIye46lv7JvKrVo70Uxvq/RhYfxFnaQOg==
-
 "@unocss/core@0.34.0":
   version "0.34.0"
   resolved "https://registry.yarnpkg.com/@unocss/core/-/core-0.34.0.tgz#241ac4fa54ef1e7f6549965e0e8cb965f26a7e37"
@@ -280,14 +275,6 @@
     "@unocss/core" "0.34.0"
     "@unocss/preset-mini" "0.34.0"
     "@unocss/preset-wind" "0.34.0"
-
-"@unocss/preset-web-fonts@0.33.5":
-  version "0.33.5"
-  resolved "https://registry.yarnpkg.com/@unocss/preset-web-fonts/-/preset-web-fonts-0.33.5.tgz#319d95cc20b4aa368854c50deb95081badf33458"
-  integrity sha512-ehpzw6paEtpmazCNO1GzEwd2T1+hHs4dUNRt+7NNjKa/B9D09GIHfkkIDBhjQd1dIDrqj66+p2EmeHhMzo4+Ng==
-  dependencies:
-    "@unocss/core" "0.33.5"
-    ohmyfetch "^0.4.17"
 
 "@unocss/preset-web-fonts@0.34.0":
   version "0.34.0"
