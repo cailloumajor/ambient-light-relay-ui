@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "@vueuse/core": "8.4.2",
-    "ohmyfetch": "^0.4.18",
-    "ufo": "^0.8.4",
+    "ohmyfetch": "0.4.18",
+    "ufo": "0.8.4",
     "vue": "3.2.33"
   },
   "devDependencies": {
