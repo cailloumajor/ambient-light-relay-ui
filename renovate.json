@@ -7,6 +7,10 @@
       "groupName": "VueUse"
     },
     {
+      "matchSourceUrlPrefixes": ["https://github.com/unocss/unocss"],
+      "groupName": "unocss"
+    },
+    {
       "matchDepTypes": ["devDependencies"],
       "automerge": true,
       "automergeType": "branch"
