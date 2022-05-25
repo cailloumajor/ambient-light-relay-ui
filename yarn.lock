@@ -1997,6 +1997,11 @@ readdirp@~3.6.0:
   dependencies:
     picomatch "^2.2.1"
 
+reconnecting-eventsource@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/reconnecting-eventsource/-/reconnecting-eventsource-1.4.0.tgz#1eddd0cb761a527eba6abdfb271e7ba072e87d6d"
+  integrity sha512-sKLmf7so88LQO7XlfHlk0iHMqQboFIMMLlI58eY8QTTwigPA/rygP+pUVgPaCZSK5W60sTlw+u6TD9WmfW4Dpw==
+
 regexp.prototype.flags@^1.4.1:
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/regexp.prototype.flags/-/regexp.prototype.flags-1.4.3.tgz#87cab30f80f66660181a3bb7bf5981a872b367ac"
