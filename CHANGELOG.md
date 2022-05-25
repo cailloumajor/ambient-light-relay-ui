@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.1](https://github.com/cailloumajor/ambient-light-relay-ui/compare/v1.0.0...v1.0.1) (2022-05-25)
+
+
+### Bug Fixes
+
+* use reconnecting eventsource ([3e3ca0c](https://github.com/cailloumajor/ambient-light-relay-ui/commit/3e3ca0c3e28ff018c9e171c3dffce0e7cc22646d))
+
 ## [1.0.0](https://github.com/cailloumajor/ambient-light-relay-ui/compare/v0.0.1...v1.0.0) (2022-05-23)
 
 
