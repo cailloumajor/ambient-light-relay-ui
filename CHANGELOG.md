@@ -1,5 +1,13 @@
 # Changelog
 
+### [1.0.3](https://github.com/cailloumajor/ambient-light-relay-ui/compare/v1.0.1...v1.0.3) (2022-05-27)
+
+
+### Miscellaneous Chores
+
+* release 1.0.2 ([e899d1a](https://github.com/cailloumajor/ambient-light-relay-ui/commit/e899d1a99242fc7caeb9bf8198b85bce765747de))
+* try to enable release-please bot ([a1a4538](https://github.com/cailloumajor/ambient-light-relay-ui/commit/a1a4538ae166adebafa0a133574e2b83beaeef40))
+
 ### [1.0.1](https://github.com/cailloumajor/ambient-light-relay-ui/compare/v1.0.0...v1.0.1) (2022-05-25)
 
 
