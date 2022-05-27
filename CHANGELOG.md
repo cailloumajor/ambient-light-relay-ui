@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.0.4](https://github.com/cailloumajor/ambient-light-relay-ui/compare/v1.0.3...v1.0.4) (2022-05-27)
+
+
+### Bug Fixes
+
+* disable Jekyll for GitHub pages ([b155e13](https://github.com/cailloumajor/ambient-light-relay-ui/commit/b155e1332dc16ded7082c7ec83556e0d769538cd))
+
 ### [1.0.3](https://github.com/cailloumajor/ambient-light-relay-ui/compare/v1.0.1...v1.0.3) (2022-05-27)
 
 
