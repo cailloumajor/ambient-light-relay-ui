@@ -1,7 +1,12 @@
 <template>
   <div font-sans h-full flex text-center select-none>
     <div ma>
-      <div v-if="eventsourceStatus !== 'OPEN'">
+      <div v-if="!isHttp">
+        <p>You are visiting this site via https protocol.</p>
+        <p>It can not work due to mixed active content.</p>
+        <p>Use <a :href="httpLink()">this link</a> to use http protocol</p>
+      </div>
+      <div v-else-if="eventsourceStatus !== 'OPEN'">
         Waiting for ambient light relay to be connected...
       </div>
       <div v-else>
@@ -47,6 +52,13 @@ import { joinURL } from "ufo"
 import { computed, reactive, ref, watch } from "vue"
 
 const baseURL = "http://192.168.4.1"
+
+const isHttp = window.location.protocol === "http:"
+const httpLink = () => {
+  const url = new URL(window.location.href)
+  url.protocol = "http:"
+  return url.href
+}
 
 const { status: eventsourceStatus, data: measured } = useEventSource(
   joinURL(baseURL, "/events")
