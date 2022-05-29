@@ -1,7 +1,7 @@
 <template>
   <div font-sans h-full flex text-center select-none>
     <div ma>
-      <div v-if="status !== 'OPEN'">
+      <div v-if="eventsourceStatus !== 'OPEN'">
         Waiting for ambient light relay to be connected...
       </div>
       <div v-else>
@@ -49,7 +49,9 @@ import { useEventSource } from "./composables/event-source"
 
 const baseURL = "http://192.168.4.1"
 
-const { status, data: measured } = useEventSource(joinURL(baseURL, "/events"))
+const { status: eventsourceStatus, data: measured } = useEventSource(
+  joinURL(baseURL, "/events")
+)
 
 const changeEnabled = ref(true)
 const postStatus = ref("")
@@ -87,7 +89,7 @@ const postSettings = async () => {
   }
 }
 
-watch(status, async (newStatus) => {
+watch(eventsourceStatus, async (newStatus) => {
   if (newStatus !== "OPEN") return
   postStatus.value = ""
   postError.value = ""
