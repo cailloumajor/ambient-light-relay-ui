@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.0](https://github.com/cailloumajor/ambient-light-relay-ui/compare/v1.0.4...v1.1.0) (2022-05-29)
+
+
+### Features
+
+* change title ([64ba792](https://github.com/cailloumajor/ambient-light-relay-ui/commit/64ba792554b9985ef0d4215fc59898a674012830))
+* use plain eventsource ([90dd480](https://github.com/cailloumajor/ambient-light-relay-ui/commit/90dd480c20f5649aaa142395e7fe4ef211cfa595))
+
 ### [1.0.4](https://github.com/cailloumajor/ambient-light-relay-ui/compare/v1.0.3...v1.0.4) (2022-05-27)
 
 
