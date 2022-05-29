@@ -3,10 +3,6 @@
   "extends": ["config:base"],
   "packageRules": [
     {
-      "matchPackagePrefixes": ["@vueuse/"],
-      "groupName": "VueUse"
-    },
-    {
       "matchSourceUrlPrefixes": ["https://github.com/unocss/unocss"],
       "groupName": "unocss"
     },

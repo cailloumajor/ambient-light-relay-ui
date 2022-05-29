@@ -46,10 +46,11 @@
 </template>
 
 <script setup lang="ts">
-import { useEventSource } from "@vueuse/core"
 import { $fetch } from "ohmyfetch"
 import { joinURL } from "ufo"
 import { computed, reactive, ref, watch } from "vue"
+
+import { useEventSource } from "./composables/event-source"
 
 const baseURL = "http://192.168.4.1"
 
