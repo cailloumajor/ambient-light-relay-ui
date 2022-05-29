@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.0](https://github.com/cailloumajor/ambient-light-relay-ui/compare/v1.2.0...v1.3.0) (2022-05-29)
+
+
+### Features
+
+* redirect to http ([c957579](https://github.com/cailloumajor/ambient-light-relay-ui/commit/c9575791f0fd188d93689b6b9f4ebfedb061ffe4))
+* switch back to VueUse eventsource ([249e0f4](https://github.com/cailloumajor/ambient-light-relay-ui/commit/249e0f4e8026d394da5dbdb0a89793ccd2973499))
+
 ## [1.2.0](https://github.com/cailloumajor/ambient-light-relay-ui/compare/v1.1.0...v1.2.0) (2022-05-29)
 
 
