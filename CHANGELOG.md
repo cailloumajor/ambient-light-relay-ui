@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/cailloumajor/ambient-light-relay-ui/compare/v1.1.0...v1.2.0) (2022-05-29)
+
+
+### Features
+
+* use custom subdomain for gh-pages ([5ae9745](https://github.com/cailloumajor/ambient-light-relay-ui/commit/5ae9745eb52d841dbd8477039a073274ac78190a))
+
 ## [1.1.0](https://github.com/cailloumajor/ambient-light-relay-ui/compare/v1.0.4...v1.1.0) (2022-05-29)
 
 
