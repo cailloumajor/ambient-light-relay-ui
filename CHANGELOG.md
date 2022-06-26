@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/cailloumajor/ambient-light-relay-ui/compare/v1.4.0...v1.4.1) (2022-06-26)
+
+
+### Bug Fixes
+
+* **deps:** update dependency vue to v3.2.37 ([9fb0624](https://github.com/cailloumajor/ambient-light-relay-ui/commit/9fb0624da3f73f993cea5f7ef81eaf88a3608395))
+
 ## [1.4.0](https://github.com/cailloumajor/ambient-light-relay-ui/compare/v1.3.0...v1.4.0) (2022-05-29)
 
 
