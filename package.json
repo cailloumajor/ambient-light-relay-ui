@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "1.1.4",
-    "@types/node": "16.11.43",
+    "@types/node": "16.11.44",
     "@unocss/preset-web-fonts": "0.44.1",
     "@unocss/reset": "0.44.1",
     "@vitejs/plugin-vue": "3.0.0",
