@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/cailloumajor/ambient-light-relay-ui/compare/v1.4.1...v1.4.2) (2022-08-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ufo to v0.8.5 ([80789bc](https://github.com/cailloumajor/ambient-light-relay-ui/commit/80789bc0b0800b35bb110d4a5caaaae0ef771bd9))
+
 ## [1.4.1](https://github.com/cailloumajor/ambient-light-relay-ui/compare/v1.4.0...v1.4.1) (2022-06-26)
 
 
