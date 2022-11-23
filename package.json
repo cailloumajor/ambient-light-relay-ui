@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "ohmyfetch": "0.4.21",
-    "ufo": "0.8.5",
+    "ufo": "0.8.6",
     "vue": "3.2.45"
   },
   "devDependencies": {
