@@ -20,7 +20,7 @@
     "@unocss/reset": "0.51.8",
     "@vitejs/plugin-vue": "4.1.0",
     "@vue/eslint-config-prettier": "7.1.0",
-    "@vue/eslint-config-typescript": "11.0.2",
+    "@vue/eslint-config-typescript": "11.0.3",
     "@vue/tsconfig": "0.1.3",
     "eslint": "8.39.0",
     "eslint-plugin-import": "2.27.5",
