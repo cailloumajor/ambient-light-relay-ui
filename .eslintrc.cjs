@@ -1,4 +1,5 @@
-const tsConfig = require("./tsconfig.json")
+const requireJSON5 = require("require-json5")
+const tsConfig = requireJSON5("./tsconfig.json")
 const internalPathPatterns = Object.keys(tsConfig.compilerOptions.paths)
   .filter((pat) => pat.endsWith("/*"))
   .map((pat) => pat.slice(0, -2))

@@ -32,7 +32,8 @@
 			"extensions": [
 				"editorconfig.editorconfig",
 				"esbenp.prettier-vscode",
-				"vue.volar"
+				"vue.volar",
+				"vue.vscode-typescript-vue-plugin"
 			],
 			"settings": {
 				"editor.formatOnSave": true,
