@@ -1,8 +1,25 @@
-# See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.234.0/containers/javascript-node/.devcontainer/base.Dockerfile
+FROM node:18.16.0
 
-# [Choice] Node.js version (use -bullseye variants on local arm64/Apple Silicon): 18, 16, 14, 18-bullseye, 16-bullseye, 14-bullseye, 18-buster, 16-buster, 14-buster
-ARG VARIANT="18-bullseye"
-FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${VARIANT}
+ARG USERNAME=node
+ARG NPM_GLOBAL=/usr/local/share/npm-global
+
+# Add NPM global to PATH.
+ENV PATH=${NPM_GLOBAL}/bin:${PATH}
+
+RUN \
+    # Configure global npm install location, use group to adapt to UID/GID changes
+    if ! grep -e "^npm:" /etc/group >/dev/null 2>&1; then groupadd -r npm; fi \
+    && usermod -a -G npm ${USERNAME} \
+    && umask 0002 \
+    && mkdir -p ${NPM_GLOBAL} \
+    && touch /usr/local/etc/npmrc \
+    && chown ${USERNAME}:npm ${NPM_GLOBAL} /usr/local/etc/npmrc \
+    && chmod g+s ${NPM_GLOBAL} \
+    && npm config -g set prefix ${NPM_GLOBAL} \
+    && su ${USERNAME} -c "npm config -g set prefix ${NPM_GLOBAL}"
+    # Install eslint
+    # && su ${USERNAME} -c "umask 0002 && npm install -g eslint" \
+    # && npm cache clean --force > /dev/null 2>&1
 
 # [Optional] Uncomment this section to install additional OS packages.
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
