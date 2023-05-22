@@ -1,6 +1,5 @@
 {
   "name": "ambient-light-relay-ui",
-  "private": true,
   "version": "1.4.2",
   "type": "module",
   "scripts": {
