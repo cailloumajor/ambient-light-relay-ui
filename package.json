@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "1.6.0",
-    "@types/node": "20.10.1",
+    "@types/node": "20.10.2",
     "@unocss/reset": "0.57.7",
     "@vitejs/plugin-vue": "4.5.1",
     "@vue/eslint-config-prettier": "7.1.0",
