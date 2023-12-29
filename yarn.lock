@@ -1021,10 +1021,10 @@
     fast-glob "^3.3.2"
     magic-string "^0.30.5"
 
-"@vitejs/plugin-vue@5.0.0":
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-5.0.0.tgz#8e8946548e6dfd9eb0391bbc282ec8e52103e0dd"
-  integrity sha512-7x5e8X4J1Wi4NxudGjJBd2OFerAi/0nzF80ojCzvfj347WVr0YSn82C8BSsgwSHzlk9Kw5xnZfj0/7RLnNwP5w==
+"@vitejs/plugin-vue@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@vitejs/plugin-vue/-/plugin-vue-5.0.1.tgz#8ee6311f9401666291fc8a9106a17431f1416b2a"
+  integrity sha512-lwvZX5tDhJpRJEKsjoUSWgaD26Lk9X4aDYGAPpr/Q6cLTT3PC8LPu2dsnYEweAZiNgHsbyKL2Svc/CDrFOsbtw==
 
 "@volar/language-core@1.11.1", "@volar/language-core@~1.11.1":
   version "1.11.1"
