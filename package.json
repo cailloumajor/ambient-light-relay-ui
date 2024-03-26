@@ -12,7 +12,7 @@
   "dependencies": {
     "ohmyfetch": "0.4.21",
     "ufo": "1.1.2",
-    "vue": "3.3.4"
+    "vue": "3.4.21"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "1.8.0",
