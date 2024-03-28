@@ -30,4 +30,4 @@ jobs:
           fetch-depth: 0
       # Workaround, see https://github.com/wagoid/commitlint-github-action/issues/560#issuecomment-1277659864
       - run: rm tsconfig.json
-      - uses: wagoid/commitlint-github-action@v5
+      - uses: wagoid/commitlint-github-action@v6
