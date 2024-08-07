@@ -1,5 +1,26 @@
 # Changelog
 
+## 1.4.3 (2024-08-07)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ohmyfetch to v0.4.21 ([766c855](https://github.com/cailloumajor/ambient-light-relay-ui/commit/766c855b9f58b72af2867df254a45f32eac234eb))
+* **deps:** update dependency ufo to v1 ([71206b0](https://github.com/cailloumajor/ambient-light-relay-ui/commit/71206b09df578692377762d140c7fba5b3b0da0f))
+* **deps:** update dependency ufo to v1.0.1 ([26e0846](https://github.com/cailloumajor/ambient-light-relay-ui/commit/26e0846f220799ddaa11254c8529e4df6d3fd349))
+* **deps:** update dependency ufo to v1.1.2 ([55f5f62](https://github.com/cailloumajor/ambient-light-relay-ui/commit/55f5f621eaeb50ceb5ada4761a02654f9c5b5846))
+* **deps:** update dependency ufo to v1.5.3 ([b580c41](https://github.com/cailloumajor/ambient-light-relay-ui/commit/b580c4149c998f991ec3bb74827a4be070596fef))
+* **deps:** update dependency vue to v3.2.45 ([8849131](https://github.com/cailloumajor/ambient-light-relay-ui/commit/88491319eee1cd9f0e9a0c11da748164357fc877))
+* **deps:** update dependency vue to v3.3.4 ([fddbb8a](https://github.com/cailloumajor/ambient-light-relay-ui/commit/fddbb8a47a2abb031746b323cc31c442cea67d41))
+* **deps:** update dependency vue to v3.4.21 ([95c315b](https://github.com/cailloumajor/ambient-light-relay-ui/commit/95c315b434dd2fab98929ec6d44f2cda8d82473f))
+* remove private marker ([4ed1c54](https://github.com/cailloumajor/ambient-light-relay-ui/commit/4ed1c54e3b7c8db7a2f9f4f6751b9175398d9df5))
+* upgrade vite project ([bd67101](https://github.com/cailloumajor/ambient-light-relay-ui/commit/bd671018276112cb6df30d8cd4348ee4bdfb7f00))
+
+
+### Miscellaneous Chores
+
+* release 1.4.3 ([b648c64](https://github.com/cailloumajor/ambient-light-relay-ui/commit/b648c64706e5a50fbb9aa0f34b851985bbb079a3))
+
 ## 1.4.3 (2023-05-22)
 
 
