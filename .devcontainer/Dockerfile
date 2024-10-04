@@ -1,4 +1,4 @@
-FROM node:18.20.0
+FROM node:20.17.0
 
 ARG USERNAME=node
 ARG NPM_GLOBAL=/usr/local/share/npm-global
