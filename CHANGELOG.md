@@ -1,5 +1,30 @@
 # Changelog
 
+## 1.4.3 (2024-10-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ufo to v1.1.2 ([dd76f41](https://github.com/cailloumajor/ambient-light-relay-ui/commit/dd76f41323921f8fa110eebf121478d415f5dd65))
+* **deps:** update dependency ufo to v1.1.2 ([55f5f62](https://github.com/cailloumajor/ambient-light-relay-ui/commit/55f5f621eaeb50ceb5ada4761a02654f9c5b5846))
+* **deps:** update dependency ufo to v1.5.3 ([1f7f786](https://github.com/cailloumajor/ambient-light-relay-ui/commit/1f7f786b2fdc86df54467b349dff1ace2cbf4b97))
+* **deps:** update dependency ufo to v1.5.3 ([b580c41](https://github.com/cailloumajor/ambient-light-relay-ui/commit/b580c4149c998f991ec3bb74827a4be070596fef))
+* **deps:** update dependency ufo to v1.5.4 ([46525e2](https://github.com/cailloumajor/ambient-light-relay-ui/commit/46525e20f298a1f5843ac2b387f9ae36321327bf))
+* **deps:** update dependency ufo to v1.5.4 ([2213e0b](https://github.com/cailloumajor/ambient-light-relay-ui/commit/2213e0bfb86c913a375bb9a72bcb8c177ea7b62a))
+* **deps:** update dependency vue to v3.3.4 ([98a4552](https://github.com/cailloumajor/ambient-light-relay-ui/commit/98a4552cb7831cccef72f0e243a68f3cba5e8056))
+* **deps:** update dependency vue to v3.3.4 ([fddbb8a](https://github.com/cailloumajor/ambient-light-relay-ui/commit/fddbb8a47a2abb031746b323cc31c442cea67d41))
+* **deps:** update dependency vue to v3.4.21 ([0f14877](https://github.com/cailloumajor/ambient-light-relay-ui/commit/0f14877dd312e8e6bda1a7d110e83fb5b3da1b0c))
+* **deps:** update dependency vue to v3.4.21 ([95c315b](https://github.com/cailloumajor/ambient-light-relay-ui/commit/95c315b434dd2fab98929ec6d44f2cda8d82473f))
+* **deps:** update dependency vue to v3.5.11 ([7e7c1b1](https://github.com/cailloumajor/ambient-light-relay-ui/commit/7e7c1b10f31232c0966ad31afb74107b9bde2305))
+* **deps:** update dependency vue to v3.5.11 ([208c9d5](https://github.com/cailloumajor/ambient-light-relay-ui/commit/208c9d57f3414580ed4235fe3795d51a786723b8))
+* remove private marker ([4ed1c54](https://github.com/cailloumajor/ambient-light-relay-ui/commit/4ed1c54e3b7c8db7a2f9f4f6751b9175398d9df5))
+* upgrade vite project ([bd67101](https://github.com/cailloumajor/ambient-light-relay-ui/commit/bd671018276112cb6df30d8cd4348ee4bdfb7f00))
+
+
+### Miscellaneous Chores
+
+* release 1.4.3 ([b648c64](https://github.com/cailloumajor/ambient-light-relay-ui/commit/b648c64706e5a50fbb9aa0f34b851985bbb079a3))
+
 ## 1.4.3 (2023-05-22)
 
 
